@@ -1,0 +1,19 @@
+{
+  "name": "ns-js",
+  "version": "1.0.0",
+  "description": "Nerdschool-modernjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iholck/ns-js.git"
+  },
+  "author": "Ivar Holck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iholck/ns-js/issues"
+  },
+  "homepage": "https://github.com/iholck/ns-js#readme"
+}
