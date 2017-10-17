@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/iholck/ns-js/issues"
   },
-  "homepage": "https://github.com/iholck/ns-js#readme"
+  "homepage": "https://github.com/iholck/ns-js#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
