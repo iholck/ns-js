@@ -2,6 +2,7 @@ const express = require('express');
 const TvShow = require('./TvShow');
 const tvShowRouter = express.Router();
 const TvShowService = require('./TvShowService');
+
 //const tvShowService = new TvShowService();
 const tvShows = TvShowService.getAll();
 
@@ -23,7 +24,7 @@ tvShowRouter.route('/:tvShowId')
 		const tvShowId = req.params.tvShowId;
 		res.json(TvShowService.deleteById(tvShowId));
 	});
-	
+
 tvShowRouter.post('/', (req, res) => {
 	
 	const showName = req.body.name;
@@ -32,6 +33,9 @@ tvShowRouter.post('/', (req, res) => {
 		console.log(`Found Name: ${showName} and genre: ${showGenre}`);
 		res.send(TvShowService.createTvShow(showName,showGenre));
 //	}
+
+
+
 
 });
 
